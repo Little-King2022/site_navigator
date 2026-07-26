@@ -1,28 +1,28 @@
 //
-//  HomeBodyGridView.swift
-//  app_test
+//  HomeBodyCardView.swift
+//  site_navigator
 //
 
 import SwiftUI
 
-/// Grid ("宫格") display style — icon-grid layout similar to a home screen.
-struct HomeBodyGridView: View {
+/// Card display style — `ScrollView` + `LazyVStack` (needed for card
+/// spacing/shadow that `List` can't easily produce). Uses `.contextMenu`
+/// in place of `.swipeActions`, which is List-only.
+struct HomeBodyCardView: View {
     let sites: [Site]
     let onTap: (Site) -> Void
     let onToggleFavorite: (Site) -> Void
     let onEdit: (Site) -> Void
     let onDelete: (Site) -> Void
 
-    private let columns = [GridItem(.adaptive(minimum: 84, maximum: 110), spacing: 16)]
-
     var body: some View {
         ScrollView {
-            LazyVGrid(columns: columns, spacing: 20) {
+            LazyVStack(spacing: 12) {
                 ForEach(sites) { site in
                     Button {
                         onTap(site)
                     } label: {
-                        SiteGridCellView(site: site)
+                        SiteCardView(site: site)
                     }
                     .buttonStyle(.plain)
                     .contextMenu {

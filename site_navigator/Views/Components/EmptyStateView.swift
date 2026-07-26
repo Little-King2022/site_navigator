@@ -1,6 +1,6 @@
 //
 //  EmptyStateView.swift
-//  app_test
+//  site_navigator
 //
 
 import SwiftUI

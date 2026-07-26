@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		783EBB2430158AD800611E31 /* app_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		783EBB2430158AD800611E31 /* site_navigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = site_navigator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		783EBB2630158AD800611E31 /* app_test */ = {
+		783EBB2630158AD800611E31 /* site_navigator */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = app_test;
+			path = site_navigator;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		783EBB1B30158AD800611E31 = {
 			isa = PBXGroup;
 			children = (
-				783EBB2630158AD800611E31 /* app_test */,
+				783EBB2630158AD800611E31 /* site_navigator */,
 				783EBB2530158AD800611E31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		783EBB2530158AD800611E31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				783EBB2430158AD800611E31 /* app_test.app */,
+				783EBB2430158AD800611E31 /* site_navigator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		783EBB2330158AD800611E31 /* app_test */ = {
+		783EBB2330158AD800611E31 /* site_navigator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 783EBB2F30158AD800611E31 /* Build configuration list for PBXNativeTarget "app_test" */;
+			buildConfigurationList = 783EBB2F30158AD800611E31 /* Build configuration list for PBXNativeTarget "site_navigator" */;
 			buildPhases = (
 				783EBB2030158AD800611E31 /* Sources */,
 				783EBB2130158AD800611E31 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				783EBB2630158AD800611E31 /* app_test */,
+				783EBB2630158AD800611E31 /* site_navigator */,
 			);
-			name = app_test;
+			name = site_navigator;
 			packageProductDependencies = (
 			);
-			productName = app_test;
-			productReference = 783EBB2430158AD800611E31 /* app_test.app */;
+			productName = site_navigator;
+			productReference = 783EBB2430158AD800611E31 /* site_navigator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 783EBB1F30158AD800611E31 /* Build configuration list for PBXProject "app_test" */;
+			buildConfigurationList = 783EBB1F30158AD800611E31 /* Build configuration list for PBXProject "site_navigator" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				783EBB2330158AD800611E31 /* app_test */,
+				783EBB2330158AD800611E31 /* site_navigator */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		783EBB1F30158AD800611E31 /* Build configuration list for PBXProject "app_test" */ = {
+		783EBB1F30158AD800611E31 /* Build configuration list for PBXProject "site_navigator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				783EBB2D30158AD800611E31 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		783EBB2F30158AD800611E31 /* Build configuration list for PBXNativeTarget "app_test" */ = {
+		783EBB2F30158AD800611E31 /* Build configuration list for PBXNativeTarget "site_navigator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				783EBB3030158AD800611E31 /* Debug */,
